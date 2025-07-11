@@ -3,7 +3,7 @@ const fs = require('fs');
 const path = require('path');
 const router = express.Router();
 
-const dataPath = path.join(__dirname, '../data/logs.json');
+const dataPath = path.join(__dirname, 'logs.json');
 
 // 🧠 Fungsi bantu untuk baca file log
 function readLogs() {
